@@ -14,8 +14,8 @@ const RoomPage = () => {
                 return;
             }
 
-            const appID = 1949623420;
-            const serverSecret = "3bf154d12a9a27ae1570301933f524d5";
+            const appID = 203828405;
+            const serverSecret = "aaa8949a5370b5aae4371160fee1b808";
             const kitToken = await ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), "Gulshan");
             const zp = ZegoUIKitPrebuilt.create(kitToken);
             zp.joinRoom({
